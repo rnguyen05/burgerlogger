@@ -1,5 +1,5 @@
 {
-  "name": "burger",
+  "name": "burgerlogger",
   "version": "1.0.0",
   "description": "burger logger",
   "main": "server.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rnguyen05/burger.git"
+    "url": "git+https://github.com/rnguyen05/burgerlogger.git"
   },
   "keywords": [
     "burger",
@@ -23,6 +23,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
     "mysql": "^2.15.0"
   }
 }
