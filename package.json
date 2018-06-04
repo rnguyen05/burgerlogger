@@ -1,29 +1,20 @@
 {
-  "name": "burgerlogger",
+  "name": "mvc_design",
   "version": "1.0.0",
-  "description": "burger logger",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rnguyen05/burgerlogger.git"
-  },
-  "keywords": [
-    "burger",
-    "logger"
-  ],
-  "author": "ngoc nguyen",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rnguyen05/burger/issues"
-  },
-  "homepage": "https://github.com/rnguyen05/burger#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.15.0"
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
   }
 }
