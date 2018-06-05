@@ -10,17 +10,20 @@ The user may enter any burger name to add it to the menu. This also adds the new
 https://burgerlogger062018.herokuapp.com/
 
 # Installation
-To run the application locally, first clone this repository with the following command.
+To run the application locally, 
 
-```git clone https://github.com/rnguyen05/burgerlogger.git```
+* clone this repository with the following command
 
-Next, install the application dependencies.
+```javascript git clone https://github.com/rnguyen05/burgerlogger.git
+```
 
-```	cd bugerlogger 
-	npm install ```
+* Install the application dependencies.
+	* cd bugerlogger 
+	* npm install
 
-Finally, run the 
-``` node server.js ``` 
-locally.
+* Finally, run the below command on your terminal
+```javascript 
+	node server.js 
+``` 
 
-Now, open the local application on port 8080 at the URL: http://localhost:8080/
+* Now, open the local application on port 8080 at the URL: http://localhost:8080/
