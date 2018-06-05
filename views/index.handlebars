@@ -1,12 +1,12 @@
 
 
-<div class="container">
+<div id="main-container" class="container">
   <div class="row">
     <div class="left col-md-4">
-      <h2>Burgers</h2>
+      <h2>Burgers Ordered</h2>
       <ul>
         {{#each burgers}} 
-            {{#unless devoured}} 
+            {{#unless devoured}}      
                 {{> burgers/burger-block devoured=true}} 
             {{/unless}} 
         {{/each}}
@@ -17,10 +17,10 @@
       <h2>Add a Burger</h2>
       <form class="create-form">
         <div class="form-group">
-          <label for="burger">Please Enter a Burger You'd Like to Eat:<br/></label>
-          <input type="text" id="burger" name="burgername">
+          <label for="burger">What would you like to order?<br/></label>
+          <input type="text" id="burger" class="form-control" name="burgername" placeholder="Chicken Bacon Burger" required>
         </div>
-        <button type="submit">Add Burger</button>
+        <button type="submit" class="btn btn-secondary">Submit Order</button>
       </form>
     </div>
 
@@ -29,7 +29,7 @@
       <ul>
         {{#each burgers}} 
             {{#if devoured}} 
-                {{> burgers/burger-block devoured=false}} 
+                <strike>{{> burgers/burger-block devoured=false}}</strike>
             {{/if}} 
         {{/each}}
       </ul>

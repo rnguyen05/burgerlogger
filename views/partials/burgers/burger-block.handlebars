@@ -1,12 +1,14 @@
-{{!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-	 crossorigin="anonymous"> --}}
 
-<li>
-	{{burger_name}}
+	<div class="row">
+	<div class="devoured">
 	{{#if devoured}}
-		<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-			DEVOUR IT
+		<button class="change-devoured btn btn-secondary" data-id="{{id}}" data-newdevoured="{{devoured}}">
+			Devour it!
 		</button>
 	{{/if}}
-	{{!-- <button class="delete-burger" data-id="{{this.id}}">DELETE!</button> --}}
-</li>
+	</div>
+	<div class="burger">
+	{{burger_name}}
+	</div>
+	</div>
+
