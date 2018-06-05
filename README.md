@@ -14,15 +14,13 @@ To run the application locally,
 
 * clone this repository with the following command
 
-```git clone https://github.com/rnguyen05/burgerlogger.git```
+	* ```git clone https://github.com/rnguyen05/burgerlogger.git```
 
 * Install the application dependencies.
 	* cd bugerlogger 
 	* npm install
 
 * Finally, run the below command on your terminal
-```javascript 
-	node server.js 
-``` 
+```node server.js``` 
 
 * Now, open the local application on port 8080 at the URL: http://localhost:8080/
