@@ -7,14 +7,17 @@ h1, h2, p, label, ul, li {
     color: white;
 }
 
-h2 {
+.h2-menu {
     padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
 }
 
 #main-container {
-    background-color: rgb(43, 41, 41);
+    /* background-color: rgb(43, 41, 41);
     padding-top: 10px;
-    opacity: .9;
+    opacity: .9; */
+    margin-bottom: 20px;
 }
 
 .burger {
@@ -26,4 +29,8 @@ h2 {
     float: right;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+
+.box {
+    border: 1px solid white;
 }
