@@ -15,13 +15,13 @@ https://burgerlogger062018.herokuapp.com/
 # Installation
 To run the application locally, 
 
-* clone this repository with the following command
+* Clone this repository with the following command
 
 	* ```git clone https://github.com/rnguyen05/burgerlogger.git```
 
 * Install the application dependencies.
-	* cd bugerlogger 
-	* npm install
+	* ```cd bugerlogger``` 
+	* ```npm install```
 
 * Finally, run the below command on your terminal
 ```node server.js``` 
