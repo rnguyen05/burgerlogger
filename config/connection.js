@@ -11,7 +11,7 @@ else {
   // DB is local on localhost
   connection = mysql.createConnection({
     host: "localhost",
-    port: 3302,
+    port: 3306,
     user: "root",
     password: "",
     database: "burgers_db"
